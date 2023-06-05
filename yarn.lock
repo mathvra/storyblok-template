@@ -52,6 +52,20 @@
   resolved "https://registry.yarnpkg.com/@next/swc-win32-x64-msvc/-/swc-win32-x64-msvc-13.4.4.tgz#faab69239f8a9d0be7cd473e65f5a07735ef7b0e"
   integrity sha512-AHRITu/CrlQ+qzoqQtEMfaTu7GHaQ6bziQln/pVWpOYC1wU+Mq6VQQFlsDtMCnDztPZtppAXdvvbNS7pcfRzlw==
 
+"@storyblok/js@^2.1.6":
+  version "2.1.6"
+  resolved "https://registry.yarnpkg.com/@storyblok/js/-/js-2.1.6.tgz#7dbaa39fa4e124fe3ac4315222dcd4843d58b48c"
+  integrity sha512-2qxdLW44/W8yfhJn3HOerVX1lTZYIq3O/lCEWfk//NbUz02eGgJv/os6cj2OP03WujxZEDW2od8xWRLLIn/boQ==
+  dependencies:
+    storyblok-js-client "^5.10.6"
+
+"@storyblok/react@^2.1.4":
+  version "2.1.4"
+  resolved "https://registry.yarnpkg.com/@storyblok/react/-/react-2.1.4.tgz#f39587c3ae0eef731aee17ec4741ea30b33749fe"
+  integrity sha512-4usjPYVYalspNemX+dL7fVD3oNOWU9EOLFWPVyt5OIfGhT6nlEJ7Yyke0EGJJEnxDGTEsQGdnbkUnH9JAc5hWQ==
+  dependencies:
+    "@storyblok/js" "^2.1.6"
+
 "@swc/helpers@0.5.1":
   version "0.5.1"
   resolved "https://registry.yarnpkg.com/@swc/helpers/-/helpers-0.5.1.tgz#e9031491aa3f26bfcc974a67f48bd456c8a5357a"
@@ -156,6 +170,11 @@ source-map-js@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/source-map-js/-/source-map-js-1.0.2.tgz#adbc361d9c62df380125e7f161f71c826f1e490c"
   integrity sha512-R0XvVJ9WusLiqTCEiGCmICCMplcCkIwwR11mOSD9CR5u+IXYdiseeEuXCVAjS54zqwkLcPNnmU4OeJ6tUrWhDw==
+
+storyblok-js-client@^5.10.6:
+  version "5.10.6"
+  resolved "https://registry.yarnpkg.com/storyblok-js-client/-/storyblok-js-client-5.10.6.tgz#df4f2fdff45e6de5874a6e1c19b6c1b062ce556f"
+  integrity sha512-rnUWMom9ePxUIbZ0mhnGePtd6agO4jmDDd9UVbeRehMTrfUKsDcpqOfTHO6zy7aq7SMaQqMB+22JCYzYbsZDuw==
 
 streamsearch@^1.1.0:
   version "1.1.0"
